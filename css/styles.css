@@ -1,4 +1,4 @@
-header, section {
+section {
     margin-right: 6%;
     margin-left: 6%;
 }
@@ -12,23 +12,66 @@ nav {
 }
 
 .nav-title {
-    margin-left: 4%;
+    margin-left: 5%;
 }
 
-.navbar-item {
-    text-transform: uppercase;
+a.anchor {
+    display: block;
+    position: relative;
+    top: -105px;
+    visibility: hidden;
+}
+
+li {
+    font-size: 14px !important;
+}
+
+li .nav-link {
+    color: #000000 !important;
+}
+
+li :hover {
+    color: blue !important;
+    text-decoration: underline !important;
+}
+
+.main {
+    padding-right: 6% !important;
+    margin-left: 6% !important;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon-envelope {
+    margin-right: 0.2%;
+}
+
+.icon-mobile {
+    margin-left: 0.7%;
+    margin-right: 0.8%;
+}
+
+.icon-marker {
+    margin-left: 0.7%;
+    margin-right: 0.8%;
 }
 
 .col-md-4 {
-    padding-bottom: 10%;
-    word-wrap: break-word
+    word-wrap: break-word;
+}
+
+.title {
+    padding-right: 10%;
 }
 
 .title-text {
     padding-right: 10%;
+    padding-bottom: 15%;
 }
 
-.image{
+.image {
     margin-right: 10%;
 }
 
@@ -36,4 +79,9 @@ nav {
     position: absolute;
     bottom: 0;
     padding-bottom: 5%;
+}
+
+.footer {
+    align-self: center;
+    text-align: center;
 }
