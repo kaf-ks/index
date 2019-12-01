@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 section {
     margin-right: 6%;
     margin-left: 6%;
@@ -22,6 +26,16 @@ a.anchor {
     visibility: hidden;
 }
 
+.navbar-toggler {
+    display: block;
+    position: absolute;
+    float: right;
+    right: 0;
+    top: 0;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
 li {
     font-size: 14px !important;
 }
@@ -38,6 +52,10 @@ li :hover {
 .main {
     padding-right: 6% !important;
     margin-left: 6% !important;
+}
+
+.main-image {
+    position: sticky;
 }
 
 .icon {
