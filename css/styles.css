@@ -8,7 +8,7 @@ section {
 }
 
 span {
-    color: #421fff;
+    color: #0645AD;
 }
 
 nav {
@@ -19,6 +19,11 @@ nav {
     margin-left: 5%;
 }
 
+.headlink {
+    color: #252525 !important;
+    text-decoration: none !important;
+}
+
 a.anchor {
     display: block;
     position: relative;
@@ -26,14 +31,20 @@ a.anchor {
     visibility: hidden;
 }
 
-.navbar-toggler {
-    display: block;
-    position: absolute;
-    float: right;
-    right: 0;
-    top: 0;
-    margin-right: 5%;
-    margin-top: 5%;
+p a {
+    text-decoration: underline;
+}
+
+p a:link, i a:link {
+    color: #0645AD !important;
+}
+
+p a:visited {
+    color: #0B0080 !important;
+}
+
+p a:hover {
+    color: #CC2200 !important;
 }
 
 li {
@@ -41,7 +52,7 @@ li {
 }
 
 li .nav-link {
-    color: #000000 !important;
+    color: #252525 !important;
 }
 
 li :hover {
@@ -54,8 +65,14 @@ li :hover {
     margin-left: 6% !important;
 }
 
+
+.main-image img {
+    float: right;
+}
 .main-image {
-    position: sticky;
+    padding-top: 10px;
+    margin-right: 16%;
+    margin-left: 16%;
 }
 
 .icon {
@@ -71,6 +88,11 @@ li :hover {
     margin-right: 0.8%;
 }
 
+.telegram {
+    width: 14px;
+    height: 14px;
+    margin-right: 0.7%;
+}
 .icon-marker {
     margin-left: 0.7%;
     margin-right: 0.8%;
@@ -80,26 +102,48 @@ li :hover {
     word-wrap: break-word;
 }
 
+.col-md-8 h4 {
+    padding-top: 5px;
+}
+
 .title {
     padding-right: 10%;
 }
 
 .title-text {
     padding-right: 10%;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
 }
 
 .image {
     margin-right: 10%;
 }
 
+.wave img {
+    width: 50%;
+    height: 50%;
+}
 .wave {
     position: absolute;
     bottom: 0;
     padding-bottom: 5%;
 }
-
 .footer {
     align-self: center;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .headlink h5 {
+        font-size: 16px;
+    }
+
+    .headlink h7 {
+        font-size: 12px;
+    }
+
+    .main-image {
+        margin-right: 6%;
+        margin-left: 0%;
+    }
 }
