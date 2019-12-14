@@ -56,7 +56,7 @@ li .nav-link {
 }
 
 li :hover {
-    color: blue !important;
+    color: #0645AD !important;
     text-decoration: underline !important;
 }
 
@@ -69,10 +69,11 @@ li :hover {
 .main-image img {
     float: right;
 }
+
 .main-image {
     padding-top: 10px;
-    margin-right: 16%;
-    margin-left: 16%;
+    margin-right: 33%;
+    /*margin-left: 8%;*/
 }
 
 .icon {
@@ -80,22 +81,36 @@ li :hover {
 }
 
 .icon-envelope {
+    width: 14px;
+    height: 14px;
     margin-right: 0.2%;
+    margin-top: -0.5%;
 }
 
 .icon-mobile {
-    margin-left: 0.7%;
-    margin-right: 0.8%;
+    width: 14px;
+    height: 14px;
+    margin-left: 0.1%;
+    margin-right: 0.2%;
+
+    margin-top: -0.5%;
 }
 
 .telegram {
     width: 14px;
     height: 14px;
-    margin-right: 0.7%;
+    margin-right: 0.3%;
+
+    margin-top: -0.5%;
 }
+
 .icon-marker {
-    margin-left: 0.7%;
-    margin-right: 0.8%;
+    width: 14px;
+    height: 14px;
+    margin-left: 0.3%;
+    margin-right: 0.1%;
+
+    margin-top: -0.5%;
 }
 
 .col-md-4 {
@@ -115,6 +130,10 @@ li :hover {
     padding-bottom: 20%;
 }
 
+.padding {
+    padding-bottom: 33%;
+}
+
 .image {
     margin-right: 10%;
 }
@@ -123,23 +142,69 @@ li :hover {
     width: 50%;
     height: 50%;
 }
+
 .wave {
     position: absolute;
     bottom: 0;
     padding-bottom: 5%;
 }
+
 .footer {
     align-self: center;
     text-align: center;
 }
 
 @media (max-width: 768px) {
+    body {
+        /*overflow-x: hidden;*/
+    }
+
+    .icon-envelope {
+        width: 14px;
+        height: 14px;
+        margin-top: -1%;
+    }
+
+    .icon-mobile {
+        width: 14px;
+        height: 14px;
+        margin-top: -1%;
+    }
+
+    .telegram {
+        width: 14px;
+        height: 14px;
+        margin-top: -1%;
+    }
+
+    .icon-marker {
+        width: 14px;
+        height: 14px;
+        margin-top: -1%;
+    }
+
+    .padding {
+        padding-bottom: 20%;
+    }
+
+    .wave {
+        position: relative;
+        top: -30px;
+    }
+
     .headlink h5 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .headlink h7 {
-        font-size: 12px;
+        font-size: 14px;
+        padding-right: 5em;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 1.5em;
+        right: 1.2em;
     }
 
     .main-image {
